@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css" />
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Kumbh+Sans:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&family=Source+Sans+Pro:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts -->
+
+    <script src="scriptThree.js" defer></script>
+  </head>
+  <body>
+    <div class="hideandAnimateModal">
+      <div class="modal">
+        <div class="everythinginmodal">
+          <h1 class="H1Text">Transaction succeeded</h1>
+          <p class="TextmessagePhoneNumber">
+            you will recieve a text message to your phone number you have
+            entered.
+          </p>
+          <p class="EmailUs">
+            We really hope you found it easy using our site, if theres anything
+            we need to fix, or any errors/bugs, please email us,
+            AucklandAccomodation@gmail.com
+          </p>
+          <p class="ThankyouParagraph">thank you for you're time!</p>
+          <div class="returnContainer">
+            <a href="index.html">
+              <button class="returnbutton">Return</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form class="wholepage">
+      <h1 class="ENTERYOURCARD">Enter your card details for order</h1>
+      <h1>You can use any card, not overseas</h1>
+      <!-- <form class="wholepage"> -->
+      <div class="creditcard">
+        <img src="cardimg/VisaCard.jpg" alt="" class="creditcards" />
+        <img src="cardimg/Mastercard.png" alt="" class="creditcards" />
+        <img src="cardimg/JCBCard.png" alt="" class="creditcards" />
+        <img src="cardimg/AmericanExpress.png" alt="" class="creditcards" />
+      </div>
+
+      <div class="inputscreditcard">
+        <div class="userscardname">
+          <input
+            type="text"
+            placeholder="Phone-Number"
+            class="inputs-card-details"
+          />
+        </div>
+
+        <div class="inputscreditcard">
+          <div class="userscardname">
+            <input
+              type="text"
+              placeholder="Card Number"
+              class="inputs-card-details"
+            />
+            <input
+              type="text"
+              placeholder="Card Name"
+              class="inputs-card-details"
+            />
+          </div>
+          <div class="monthyearcvv">
+            <div class="monthyear monthyearformobile">
+              <input
+                type="text"
+                placeholder="Month"
+                class="inputs-card-details"
+              />
+              <input
+                type="text"
+                placeholder="Year"
+                class="inputs-card-details"
+              />
+            </div>
+            <input
+              class="CCVFORMOBILE CCV inputs-card-details"
+              type="text"
+              placeholder="CVV"
+            />
+          </div>
+          <div class="saveandplaceorder">
+            <p><input type="checkbox" />Save Card Details?</p>
+
+            <button class="ProceedButton" type="button">Proceed</button>
+          </div>
+
+          <div>
+            <img class="lock" src="./icons/lockicon.png" alt="" />
+            <p>
+              Your information is secure, we cannot see your card details when
+              you place your order.
+            </p>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

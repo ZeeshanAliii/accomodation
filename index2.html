@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css" />
+
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Taviraj:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&family=Rubik+Distressed&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&family=Roboto+Condensed:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&family=Roboto+Condensed:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts -->
+
+    <!-- calander -->
+
+    <script src="./scriptTwo.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/litepicker.js"></script>
+
+    <!-- calander -->
+
+    <!-- maps -->
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDK0hATgkLsSz0tOdjKhYUJoexKJtu7yIg&callback=initMap"
+      async="true"
+    ></script>
+
+    <!-- maps -->
+  </head>
+  <body>
+    <div class="modal hideandAnimateModal">
+      <div class="closeout">
+        <img class="closebuttonimg" src="./icons/exitmodal.png" alt="" />
+      </div>
+      <div class="information">
+        <div class="modalDescription">
+          <div class="googlemapsandimage">
+            <div class="map-container"></div>
+            <img
+              id="modal-image"
+              class="modalimage"
+              src="./contents/Auckland1cheap.jpg"
+              alt=""
+            />
+          </div>
+          <div class="modaltextcontainer">
+            <h1 id="modal-title" class="modalH1">
+              Doubletree By Hilton KarakaOpens
+            </h1>
+            <p
+              id="modal-description"
+              class="DOUBLETreePparagraph ModalParagraph"
+            >
+              Located 25 minutes south of Auckland, we are next to the New
+              Zealand Bloodstock Sales Centre, auditorium, and stables. We offer
+              stylish guest rooms and suites, ample event space and beautiful
+              gardens. Enjoy dining at our restaurant and bar featuring indoor
+              and outdoor seating. Your stay also includes access to our
+              state-of-the-art 24-hour fitness centre and outdoor pool.
+            </p>
+            <div class="addOns-container">
+              <div class="Modaladd-ons1">
+                <input class="addOns1" type="checkbox" name="" id="box1" />
+                <label for="box1">Accomodation</label>
+
+                <p>$130</p>
+              </div>
+              <div class="Modaladd-ons2">
+                <input class="addOns2" type="checkbox" name="" id="box2" />
+                <label for="box2">Home AC</label>
+                <p>$120</p>
+              </div>
+            </div>
+            <div class="pricing">
+              <h1>PRICE:</h1>
+              <h1 id="modal-price" data-price="340" class="ThemodalPrice">
+                $340
+              </h1>
+            </div>
+            <div class="modalbooknowbutton">
+              <a href="index3.html">
+                <button class="booknowButtonobject">BOOK NOW</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <div class="Top">
+        <h1 class="title">AUCKLAND ACCOMODATION</h1>
+        <div class="topnavcontainer">
+          <img class="footerimg" src="img/fb.png" alt="" />
+          <img class="footerimg" src="img/instagram.png" alt="" />
+        </div>
+      </div>
+
+      <div class="filters">
+        <button class="buttons" value="All">All</button>
+        <button class="buttons" value="cheaper">Cheaper</button>
+        <button class="buttons" value="decent">Decent</button>
+        <button class="buttons" value="luxurious">Luxurious</button>
+      </div>
+    </nav>
+    <div class="PlaceFilters">
+      <button class="placefillterButton" value="AllPlaces">All Places</button>
+      <button class="placefillterButton" value="Southisland">
+        South Island
+      </button>
+      <button class="placefillterButton" value="Northisland">
+        North island
+      </button>
+    </div>
+
+    <h1 class="enterfields">Please fill in the fields before proceeding:</h1>
+    <div class="userSelection">
+      <input
+        class="datepicker"
+        id="litepicker"
+        type="text"
+        placeholder="Choose a Date"
+      />
+
+      <input class="numberofpeople" min="0" max="5" type="number" />
+
+      <button class="fieldenteredshowseverything">Enter</button>
+    </div>
+    <div class="hide hidecontentfunction">
+      <div class="contents">
+        <!-- Cheap -->
+        <div class="TheCard" data-id="cheaper" data-place="Southisland">
+          <p class="Placename">Doubletree By Hilton KarakaOpens</p>
+          <img class="cardimg" src="contents/Auckland1cheap.jpg" alt="" />
+
+          <div>
+            <p class="price">$340</p>
+            <button data-num="" class="DetailsButton">Details</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="cheaper" data-place="Southisland">
+          <p class="Placename">3 Bedroom Penthouse with Fabulous Views</p>
+          <img class="cardimg" src="contents/Auckland2cheap.jpg" alt="" />
+          <div>
+            <p class="price">$560</p>
+            <button class="DetailsButton PenthouseButton">Details</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="cheaper" data-place="Northisland">
+          <p class="Placename">Echo Lodge</p>
+          <img class="cardimg" src="./contents/Auckland3cheap.jpg" alt="" />
+          <div>
+            <p class="price">$130</p>
+            <button class="DetailsButton">Details</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="cheaper" data-place="Northisland">
+          <p class="Placename">Sunrise Garden Serviced Apartments Albany</p>
+          <img class="cardimg" src="contents/Auckland4cheap.jpg" alt="" />
+
+          <div>
+            <p class="price">$230</p>
+            <button class="DetailsButton">Details</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="cheaper" data-place="Northisland">
+          <p class="Placename">Self Contained Cottage Pukekohe</p>
+          <img class="cardimg" src="./contents/Auckland5cheap.jpg" alt="" />
+
+          <div>
+            <p class="price">$230</p>
+            <button class="DetailsButton">Details</button>
+          </div>
+        </div>
+        -->
+
+        <!--Cheap  -->
+
+        <!-- Decent -->
+        <div class="TheCard" data-id="decent" data-place="Northisland">
+          <p class="Placename">Sunrise Garden Serviced Apartments Albany</p>
+          <img class="cardimg" src="contents/Auckland1Decent.jpg" alt="" />
+          <div>
+            <p class="price">$560</p>
+            <button class="DetailsButton">Details</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="decent" data-place="Southisland">
+          <p class="Placename">
+            100 Halsey Street, 1010, Auckland, New Zealand
+          </p>
+          <img class="cardimg" src="./contents/Auckland2Decent.jpg" alt="" />
+
+          <div>
+            <p class="price">$560</p>
+            <button class="DetailsButton">Details</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="decent" data-place="Southisland">
+          <p class="Placename">The Quadrant Hotel & Suites</p>
+          <img class="cardimg" src="./contents/Auckland3Decent.jpg" alt="" />
+          <div>
+            <p class="price">$420</p>
+            <button class="DetailsButton">DetailsButton</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="decent" data-place="Northisland">
+          <p class="Placename">Quest Takapuna</p>
+          <img class="cardimg" src="./contents/Auckland4Decent.jpg" alt="" />
+          <div>
+            <p class="price">$420</p>
+            <button class="DetailsButton">DetailsButton</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="decent" data-place="Northisland">
+          <p class="Placename">Suite Petite</p>
+          <img class="cardimg" src="./contents/Auckland5Decent.jpg" alt="" />
+          <div>
+            <p class="price">$430</p>
+            <button class="DetailsButton">DetailsButton</button>
+          </div>
+        </div>
+
+        <!-- Decent -->
+
+        luxurious
+        <div class="TheCard" data-id="luxurious" data-place="Southisland">
+          <p class="Placename">The Convent Hotel</p>
+          <img
+            class="cardimg"
+            src="./contents/Auckland1 luxurious.jpg"
+            alt=""
+          />
+
+          <div>
+            <p class="price">$1000</p>
+            <button class="DetailsButton">DetailsButton</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="luxurious" data-place="Southisland">
+          <p class="Placename">Hobson lodge</p>
+          <img
+            class="cardimg"
+            src="./contents/Auckland2 Luxurious.jpg"
+            alt=""
+          />
+
+          <div>
+            <p class="price">$900</p>
+            <button class="DetailsButton">Details</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="luxurious" data-place="Southisland">
+          <p class="Placename">VR Queen Street</p>
+
+          <img
+            class="cardimg"
+            src="./contents/Auckland3 luxurious.jpg"
+            alt=""
+          />
+
+          <div>
+            <p class="price">$1,955</p>
+            <button class="DetailsButton">Details</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="luxurious" data-place="Southisland">
+          <p class="Placename">Four points by Sharaton Auckland</p>
+          <img
+            class="cardimg"
+            src="./contents/Auckland4 luxurious.jpg"
+            alt=""
+          />
+
+          <div>
+            <p class="price">$560</p>
+            <button class="DetailsButton">Details</button>
+          </div>
+        </div>
+        <div class="TheCard" data-id="luxurious" data-place="Southisland">
+          <p class="Placename">Quest Parnell</p>
+          <img
+            class="cardimg"
+            src="./contents/Auckland5 luxurious.jpg"
+            alt=""
+          />
+
+          <div>
+            <p class="price">$950</p>
+
+            <button class="DetailsButton">Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- UML use case diagram stickman diagram, timeline. 
+  actor = user
+checkout 
+search
+return
+renew 
+filter find 
+actor 2 = staff 
+-->

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+
+    <!-- googlefonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google font -->
+
+    <script src="./scriptOne.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="Top">
+        <h1 class="title">AUCKLAND ACCOMODATION</h1>
+        <div class="topnavcontainer">
+          <img class="footerimg" src="img/fb.png" alt="" />
+          <img class="footerimg" src="img/instagram.png" alt="" />
+        </div>
+      </div>
+
+      <div class="Selectors">
+        <button onclick="DirectSection('.Top')" class="buttons">Home</button>
+        <button onclick="DirectSection('.carousel')" class="buttons">
+          Places
+        </button>
+        <button onclick="DirectSection('.BookingContainer')" class="buttons">
+          Book Now!
+        </button>
+
+        -->
+      </div>
+    </nav>
+
+    <section class="carasol" aria-label="Newest Photos">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          <img
+            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8ZGVmcz4KICA8Y2xpcFBhdGggaWQ9ImIiPgogICA8cGF0aCBkPSJtMjAwIDEzOS4yMWg0MTIuNzl2NDYyLjc5aC00MTIuNzl6Ii8+CiAgPC9jbGlwUGF0aD4KICA8Y2xpcFBhdGggaWQ9ImEiPgogICA8cGF0aCBkPSJtMTM5LjIxIDEzOS4yMWg0NTAuNzl2NDczLjU4aC00NTAuNzl6Ii8+CiAgPC9jbGlwUGF0aD4KIDwvZGVmcz4KIDxnIGNsaXAtcGF0aD0idXJsKCNiKSI+CiAgPHBhdGggZD0ibTM4NC4wOSA2MDEuMTVjLTMxLjM2My0wLjMzNTk0LTYyLjE3Ni04LjI5My04OS43ODEtMjMuMTg0LTIzLjk4NC0xMi43MjctNDQuNjkxLTMwLjg0NC02MC40ODQtNTIuOTMtMTUuNzkzLTIyLjA4Ni0yNi4yNDYtNDcuNTM1LTMwLjUzMS03NC4zNDgtOS4wMjczLTU1Ljk4OCA2LjA2NjQtMTA0LjI5IDQ0Ljk4OC0xNDIuODEgMjguNDY1LTI4LjU2MiA2OS4wNjYtNDYuMjIzIDExNC43LTQ5LjY3NiAxMjMuMzgtOS4zMjQyIDIxNi43MS0xMTYuMTggMjE3LjY1LTExNy4yNiAxLjE5MTQtMS4zNzUgMy4wNDMtMS45ODQ0IDQuODE2NC0xLjU4MiAxLjc3NzMgMC40MDIzNCAzLjE4MzYgMS43NSAzLjY2OCAzLjUwNzggMzcuNzg5IDEzNy4xNCAyMi4zNDggMjM0LjY3IDIuNzE0OCAyOTIuMjktMjEuNDEgNjIuODQ0LTUxLjU1NSA5Mi43NDItNTIuODM2IDkzLjc3Ny01Ni4wMzkgNTQuMjYyLTEwOS4wNyA3Mi4yMTktMTU0LjkgNzIuMjE5em0xOTcuODItNDQ3LjE0Yy0yMy4xODQgMjQuMTcyLTEwOS4xMiAxMDUuODEtMjE4LjE0IDExNC4wNS00My4xNjQgMy4yNTc4LTgxLjc0MiAxOS43MzQtMTA4LjUzIDQ2Ljc2Ni0zNi41NTUgMzYuNTA4LTUwLjcxMSA4MS41OTgtNDIuMTggMTM0LjI4IDQuMDMxMiAyNS4zMDEgMTMuODgzIDQ5LjMyIDI4Ljc3NyA3MC4xNjggMTQuODk4IDIwLjg0NCAzNC40MyAzNy45NDUgNTcuMDYyIDQ5Ljk1MyA1NC4yNjYgMjguNDY1IDEzOS4xNiA0My40MSAyMzMuMjQtNDcuMjExIDEuNTc4MS0xLjU3NDIgMTE1LjczLTExNy40MSA0OS43NzMtMzY4LjAxeiIgZmlsbD0iI2ZmZiIvPgogPC9nPgogPGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj4KICA8cGF0aCBkPSJtMTQ0LjY5IDYxMi43OWMtMS4wNjY0IDAtMi4xMDU1LTAuMzQ3NjYtMi45NjA5LTAuOTg4MjgtMi4xNzk3LTEuNjMyOC0yLjYyMTEtNC43MjY2LTAuOTg4MjgtNi45MDYyIDUzLjUyMy03MS45MjYgMTM4LjEzLTExOC45NCAxODMuOTYtMTQwLjU1djAuMDAzOTA3YzMzLjU2Mi0xNS40NDEgNjQuNzkzLTM1LjUgOTIuNzkzLTU5LjU5NCAxMjEuMzYtMTA3IDE2MS43MS0yNjAuMzIgMTYyLjExLTI2MS44NSAwLjMyNDIyLTEuMjY5NSAxLjE0NDUtMi4zNTU1IDIuMjczNC0zLjAyMzQgMS4xMjg5LTAuNjY0MDYgMi40NzI3LTAuODU1NDcgMy43NDIyLTAuNTI3MzQgMi42NDQ1IDAuNjc5NjkgNC4yMzQ0IDMuMzc1IDMuNTU0NyA2LjAxOTUtMC4zOTQ1MyAxLjU3ODEtNDEuNDM4IDE1Ny44Ni0xNjUuMTYgMjY2Ljc5bC0wLjAwMzkwNi0wLjAwMzkwNmMtMjguNjg0IDI0LjcwNy02MC42OCA0NS4yODEtOTUuMDYyIDYxLjEyMS00NC44OTEgMjEuMTE3LTEyOC4wMSA2Ny4yODktMTgwLjMgMTM3LjU0LTAuOTI5NjkgMS4yNDIyLTIuMzk0NSAxLjk3MjctMy45NDUzIDEuOTcyN3oiIGZpbGw9IiNmZmYiLz4KIDwvZz4KIDxwYXRoIGQ9Im01MjkuMDggMzcxLjM2aC02NS40NjVjLTIuNjEzMyAwLjAwMzkwNy00Ljc3NzMtMi4wMjczLTQuOTMzNi00LjYzNjdsLTQuMjQyMi03MC42NDFjLTAuMDgyMDMxLTEuMzA4NiAwLjM2MzI4LTIuNTk3NyAxLjIzNDQtMy41NzgxIDAuODcxMDktMC45ODA0NyAyLjA5MzgtMS41NzQyIDMuNDAyMy0xLjY1MjMgMS4zMDg2LTAuMDgyMDMxIDIuNTk3NyAwLjM2MzI4IDMuNTc4MSAxLjIzNDQgMC45ODA0NyAwLjg2NzE5IDEuNTc0MiAyLjA5MzggMS42NTIzIDMuNDAyM2wzLjk0NTMgNjYuMDA0aDYwLjgyOGMyLjcyMjcgMCA0LjkyOTcgMi4yMTA5IDQuOTI5NyA0LjkzMzYgMCAyLjcyNjYtMi4yMDcgNC45MzM2LTQuOTI5NyA0LjkzMzZ6IiBmaWxsPSIjZmZmIi8+CiA8cGF0aCBkPSJtNDE0LjEzIDQ5OS4wNGgtMS4wODU5bC05NS42OTktMjEuMzEyYy0xLjI2NTYtMC4yOTI5Ny0yLjM2NzItMS4wNzQyLTMuMDU4Ni0yLjE3MTktMC43MjI2Ni0xLjEwNTUtMC45NzI2Ni0yLjQ1Ny0wLjY5MTQxLTMuNzQ2MWwyMS41MDgtOTYuOTM4YzAuMjE4NzUtMS4zMzk4IDAuOTc2NTYtMi41MzEyIDIuMDk3Ny0zLjI5MyAxLjEyNS0wLjc2MTcyIDIuNTA3OC0xLjAyNzMgMy44MzU5LTAuNzM0MzggMS4zMjQyIDAuMjkyOTcgMi40Njg4IDEuMTE3MiAzLjE2OCAyLjI4MTIgMC42OTUzMSAxLjE2MDIgMC44ODI4MSAyLjU2MjUgMC41MTk1MyAzLjg2NzJsLTIwLjQyNiA5Mi4xNTIgOTAuODcxIDIwLjMyNGMxLjI4NTIgMC4yODEyNSAyLjQwMjMgMS4wNjY0IDMuMTA1NSAyLjE3NTggMC43MDcwMyAxLjExMzMgMC45Mzc1IDIuNDYwOSAwLjY0MDYyIDMuNzQyMi0wLjU4MjAzIDIuMTYwMi0yLjU0MyAzLjY2MDItNC43ODUyIDMuNjUyM3oiIGZpbGw9IiNmZmYiLz4KIDxwYXRoIGQ9Im00NzEuMjYgNDU0LjU0aC0xLjA4NTlsLTc5Ljk2OS0xNy44NTVjLTEuMjgxMi0wLjI3MzQ0LTIuNDAyMy0xLjA0NjktMy4xMTcyLTIuMTQ4NC0wLjcxMDk0LTEuMTAxNi0wLjk1NzAzLTIuNDQxNC0wLjY3OTY5LTMuNzIyN2wxNy45NTctODEuMDUxYzAuNTk3NjYtMi43MjY2IDMuMjkzLTQuNDQ5MiA2LjAxOTUtMy44NDc3IDIuNzIyNyAwLjU5NzY2IDQuNDQ1MyAzLjI5MyAzLjg0NzcgNi4wMTU2bC0xNy4wNyA3Ni4yMTkgNzUuMTggMTYuOTIyYzIuNzI2NiAwLjI5Njg4IDQuNjkxNCAyLjc1IDQuMzkwNiA1LjQ3NjYtMC4yOTY4OCAyLjcyMjctMi43NSA0LjY4NzUtNS40NzI3IDQuMzg2N3oiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg=="
+            alt="leaf Icon 4917010"
+            class="styles__Image-sc-2erpfv-1 gbnltd"
+          />
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          <img
+            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzUycHQiIGhlaWdodD0iNzUycHQiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDc1MiA3NTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8ZGVmcz4KICA8Y2xpcFBhdGggaWQ9ImIiPgogICA8cGF0aCBkPSJtMjAwIDEzOS4yMWg0MTIuNzl2NDYyLjc5aC00MTIuNzl6Ii8+CiAgPC9jbGlwUGF0aD4KICA8Y2xpcFBhdGggaWQ9ImEiPgogICA8cGF0aCBkPSJtMTM5LjIxIDEzOS4yMWg0NTAuNzl2NDczLjU4aC00NTAuNzl6Ii8+CiAgPC9jbGlwUGF0aD4KIDwvZGVmcz4KIDxnIGNsaXAtcGF0aD0idXJsKCNiKSI+CiAgPHBhdGggZD0ibTM4NC4wOSA2MDEuMTVjLTMxLjM2My0wLjMzNTk0LTYyLjE3Ni04LjI5My04OS43ODEtMjMuMTg0LTIzLjk4NC0xMi43MjctNDQuNjkxLTMwLjg0NC02MC40ODQtNTIuOTMtMTUuNzkzLTIyLjA4Ni0yNi4yNDYtNDcuNTM1LTMwLjUzMS03NC4zNDgtOS4wMjczLTU1Ljk4OCA2LjA2NjQtMTA0LjI5IDQ0Ljk4OC0xNDIuODEgMjguNDY1LTI4LjU2MiA2OS4wNjYtNDYuMjIzIDExNC43LTQ5LjY3NiAxMjMuMzgtOS4zMjQyIDIxNi43MS0xMTYuMTggMjE3LjY1LTExNy4yNiAxLjE5MTQtMS4zNzUgMy4wNDMtMS45ODQ0IDQuODE2NC0xLjU4MiAxLjc3NzMgMC40MDIzNCAzLjE4MzYgMS43NSAzLjY2OCAzLjUwNzggMzcuNzg5IDEzNy4xNCAyMi4zNDggMjM0LjY3IDIuNzE0OCAyOTIuMjktMjEuNDEgNjIuODQ0LTUxLjU1NSA5Mi43NDItNTIuODM2IDkzLjc3Ny01Ni4wMzkgNTQuMjYyLTEwOS4wNyA3Mi4yMTktMTU0LjkgNzIuMjE5em0xOTcuODItNDQ3LjE0Yy0yMy4xODQgMjQuMTcyLTEwOS4xMiAxMDUuODEtMjE4LjE0IDExNC4wNS00My4xNjQgMy4yNTc4LTgxLjc0MiAxOS43MzQtMTA4LjUzIDQ2Ljc2Ni0zNi41NTUgMzYuNTA4LTUwLjcxMSA4MS41OTgtNDIuMTggMTM0LjI4IDQuMDMxMiAyNS4zMDEgMTMuODgzIDQ5LjMyIDI4Ljc3NyA3MC4xNjggMTQuODk4IDIwLjg0NCAzNC40MyAzNy45NDUgNTcuMDYyIDQ5Ljk1MyA1NC4yNjYgMjguNDY1IDEzOS4xNiA0My40MSAyMzMuMjQtNDcuMjExIDEuNTc4MS0xLjU3NDIgMTE1LjczLTExNy40MSA0OS43NzMtMzY4LjAxeiIgZmlsbD0iI2ZmZiIvPgogPC9nPgogPGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj4KICA8cGF0aCBkPSJtMTQ0LjY5IDYxMi43OWMtMS4wNjY0IDAtMi4xMDU1LTAuMzQ3NjYtMi45NjA5LTAuOTg4MjgtMi4xNzk3LTEuNjMyOC0yLjYyMTEtNC43MjY2LTAuOTg4MjgtNi45MDYyIDUzLjUyMy03MS45MjYgMTM4LjEzLTExOC45NCAxODMuOTYtMTQwLjU1djAuMDAzOTA3YzMzLjU2Mi0xNS40NDEgNjQuNzkzLTM1LjUgOTIuNzkzLTU5LjU5NCAxMjEuMzYtMTA3IDE2MS43MS0yNjAuMzIgMTYyLjExLTI2MS44NSAwLjMyNDIyLTEuMjY5NSAxLjE0NDUtMi4zNTU1IDIuMjczNC0zLjAyMzQgMS4xMjg5LTAuNjY0MDYgMi40NzI3LTAuODU1NDcgMy43NDIyLTAuNTI3MzQgMi42NDQ1IDAuNjc5NjkgNC4yMzQ0IDMuMzc1IDMuNTU0NyA2LjAxOTUtMC4zOTQ1MyAxLjU3ODEtNDEuNDM4IDE1Ny44Ni0xNjUuMTYgMjY2Ljc5bC0wLjAwMzkwNi0wLjAwMzkwNmMtMjguNjg0IDI0LjcwNy02MC42OCA0NS4yODEtOTUuMDYyIDYxLjEyMS00NC44OTEgMjEuMTE3LTEyOC4wMSA2Ny4yODktMTgwLjMgMTM3LjU0LTAuOTI5NjkgMS4yNDIyLTIuMzk0NSAxLjk3MjctMy45NDUzIDEuOTcyN3oiIGZpbGw9IiNmZmYiLz4KIDwvZz4KIDxwYXRoIGQ9Im01MjkuMDggMzcxLjM2aC02NS40NjVjLTIuNjEzMyAwLjAwMzkwNy00Ljc3NzMtMi4wMjczLTQuOTMzNi00LjYzNjdsLTQuMjQyMi03MC42NDFjLTAuMDgyMDMxLTEuMzA4NiAwLjM2MzI4LTIuNTk3NyAxLjIzNDQtMy41NzgxIDAuODcxMDktMC45ODA0NyAyLjA5MzgtMS41NzQyIDMuNDAyMy0xLjY1MjMgMS4zMDg2LTAuMDgyMDMxIDIuNTk3NyAwLjM2MzI4IDMuNTc4MSAxLjIzNDQgMC45ODA0NyAwLjg2NzE5IDEuNTc0MiAyLjA5MzggMS42NTIzIDMuNDAyM2wzLjk0NTMgNjYuMDA0aDYwLjgyOGMyLjcyMjcgMCA0LjkyOTcgMi4yMTA5IDQuOTI5NyA0LjkzMzYgMCAyLjcyNjYtMi4yMDcgNC45MzM2LTQuOTI5NyA0LjkzMzZ6IiBmaWxsPSIjZmZmIi8+CiA8cGF0aCBkPSJtNDE0LjEzIDQ5OS4wNGgtMS4wODU5bC05NS42OTktMjEuMzEyYy0xLjI2NTYtMC4yOTI5Ny0yLjM2NzItMS4wNzQyLTMuMDU4Ni0yLjE3MTktMC43MjI2Ni0xLjEwNTUtMC45NzI2Ni0yLjQ1Ny0wLjY5MTQxLTMuNzQ2MWwyMS41MDgtOTYuOTM4YzAuMjE4NzUtMS4zMzk4IDAuOTc2NTYtMi41MzEyIDIuMDk3Ny0zLjI5MyAxLjEyNS0wLjc2MTcyIDIuNTA3OC0xLjAyNzMgMy44MzU5LTAuNzM0MzggMS4zMjQyIDAuMjkyOTcgMi40Njg4IDEuMTE3MiAzLjE2OCAyLjI4MTIgMC42OTUzMSAxLjE2MDIgMC44ODI4MSAyLjU2MjUgMC41MTk1MyAzLjg2NzJsLTIwLjQyNiA5Mi4xNTIgOTAuODcxIDIwLjMyNGMxLjI4NTIgMC4yODEyNSAyLjQwMjMgMS4wNjY0IDMuMTA1NSAyLjE3NTggMC43MDcwMyAxLjExMzMgMC45Mzc1IDIuNDYwOSAwLjY0MDYyIDMuNzQyMi0wLjU4MjAzIDIuMTYwMi0yLjU0MyAzLjY2MDItNC43ODUyIDMuNjUyM3oiIGZpbGw9IiNmZmYiLz4KIDxwYXRoIGQ9Im00NzEuMjYgNDU0LjU0aC0xLjA4NTlsLTc5Ljk2OS0xNy44NTVjLTEuMjgxMi0wLjI3MzQ0LTIuNDAyMy0xLjA0NjktMy4xMTcyLTIuMTQ4NC0wLjcxMDk0LTEuMTAxNi0wLjk1NzAzLTIuNDQxNC0wLjY3OTY5LTMuNzIyN2wxNy45NTctODEuMDUxYzAuNTk3NjYtMi43MjY2IDMuMjkzLTQuNDQ5MiA2LjAxOTUtMy44NDc3IDIuNzIyNyAwLjU5NzY2IDQuNDQ1MyAzLjI5MyAzLjg0NzcgNi4wMTU2bC0xNy4wNyA3Ni4yMTkgNzUuMTggMTYuOTIyYzIuNzI2NiAwLjI5Njg4IDQuNjkxNCAyLjc1IDQuMzkwNiA1LjQ3NjYtMC4yOTY4OCAyLjcyMjctMi43NSA0LjY4NzUtNS40NzI3IDQuMzg2N3oiIGZpbGw9IiNmZmYiLz4KPC9zdmc+Cg=="
+            alt="leaf Icon 4917010"
+            class="styles__Image-sc-2erpfv-1 gbnltd"
+          />
+        </button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="imgcarasol/Auckalnd.jpg" alt="Fall image 1" />
+          </li>
+          <li class="slide">
+            <img src="imgcarasol/Queenstown.jpg" alt="Fall image 2" />
+          </li>
+          <li class="slide">
+            <img src="imgcarasol/Chrischurch.webp" alt="Fall image 3" />
+          </li>
+          <li class="slide">
+            <img src="imgcarasol/Taupo.jpg" alt="Fall image 4" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="Booking">
+      <div class="BookingContainer">
+        <div>
+          <h1 class="bookingtext">Do you want to book right now?</h1>
+        </div>
+      </div>
+      <div>
+        <div class="placecontainer">
+          <img class="placeimg" src="imgPlaces/Auckland.png" alt="" />
+          <img class="placeimg" src="imgPlaces/QueensTown.png" alt="" />
+        </div>
+      </div>
+      <div class="buttonbookingcontainer">
+        <a href="index2.html">
+          <button class="bookingbutton">find your place</button>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>

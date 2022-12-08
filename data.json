@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "image": "./contents/Auckland1cheap.jpg",
+      "title": "Doubletree By Hilton KarakaOpens",
+      "description": " Located 25 minutes south of Auckland, we are next to the New Zealand Bloodstock Sales Centre, auditorium, and stables. We offer               stylish guest rooms and suites, ample event space and beautiful              gardens. Enjoy dining at our restaurant and bar featuring indoor               and outdoor seating. Your stay also includes access to our               state-of-the-art 24-hour fitness centre and outdoor pool.",
+      "price": 340,
+      "place": "Southisland",
+      "dataId": "cheaper"
+    },
+    {
+      "id": 1,
+      "image": "./contents/Auckland2cheap.jpg",
+      "title": "3 Bedroom Penthouse with Fabulous Views",
+      "description": "Boasting an outdoor swimming pool, a fitness centre, and a shared lounge, Penthouse Condo w/ Panoramic Ocean Views at Beach Resort features accommodation in Oceanside with free WiFi and sea views. Guests benefit from a patio and a terrace. The holiday home has 2 bedrooms, a TV with cable channels, an equipped kitchen with a dishwasher and a microwave, a washing machine, and 2 bathrooms with a hot tub.",
+      "price": 560,
+      "place": "Southisland",
+      "dataId": "cheaper"
+    },
+    {
+      "id": 2,
+      "image": "./contents/Auckland2cheap.jpg",
+      "title": "Echo Lodge",
+      "description": "You're eligible for a Genius discount at Echo Lodge! To save at this property, all you have to do is sign in. Situated 14 km from Auckland Harbour Bridge, Echo Lodge offers a shared lounge, a garden and accommodation with a balcony, Fitted with a patio, the units offer air conditioning and feature a flat-screen TV and a private bathroom with shower and slippers. ",
+      "price": 130,
+      "place": "Northisland",
+      "dataId": "cheaper"
+    },
+    {
+      "id": 3,
+      "image": "./contents/Auckland3cheap.jpg",
+      "title": "Sunrise Garden Serviced Apartments Albany",
+      "description": "a flat-screen TV, a living room with a sofa, a well-equipped kitchen with a dining area, and a private bathroom with shower, slippers and a hairdryer. A dishwasher, a microwave and fridge are also available, as well as a kettle and a coffee machine. A garden and a terrace are provided at the aparthotel. North Head Historic Reserve is 19 km from Sunrise Garden Serviced Apartments Albany, while Viaduct Harbour is 19 km from the property.",
+      "price": 230,
+      "place": "Northisland",
+      "dataId": "cheaper"
+    },
+    {
+      "id": 4,
+      "image": "./contents/Auckland4cheap.jpg",
+      "title": "Self Contained Cottage Pukekohe",
+      "description": "Offering river views, Self Contained Cottage Pukekohe is an accommodation set in Auckland, 48 km from Howick Historical Village and 49 km from Mount Smart Stadium. The air-conditioned accommodation is 38 km from Auckland Botanic Gardens, and guests benefit from complimentary WiFi and private parking available on site.  The apartment has 2 bedrooms, a flat-screen TV, an equipped kitchen with a dishwasher and a microwave, a washing machine, and 1 bathroom with a shower. Towels and bed linen are offered.",
+      "price": 230,
+      "place": "Northisland",
+      "dataId": "cheaper"
+    },
+    {
+      "id": 5,
+      "image": "./contents/Auckland5cheap.jpg",
+      "title": "Sunrise Garden Serviced Apartments Albany",
+      "description": "All units here are air-conditioned and feature a flat-screen TV, a living room with a sofa, a well-equipped kitchen with a dining area, and a private bathroom with shower, slippers and a hairdryer. A dishwasher, a microwave and fridge are also available, as well as a kettle and a coffee machine.",
+      "price": 560,
+      "place": "Northisland",
+      "dataId": "decent"
+    },
+    {
+      "id": 6,
+      "image": "./contents/Auckland1decent.jpg",
+      "title": "100 Halsey Street, 1010, Auckland, New Zealand",
+      "description": "Auckland’s bustling waterfront is one of the city’s most popular attractions with a vibrant blend of restaurants, eateries, shopping and cultural precincts. In this lifestyle playground – Auckland Viaduct, Britomart, Halsey Wharf and Wynyard Quarter, none of the precincts is developing at a faster pace, than Wynyard Quarter. The precinct is not only home to one of New Zealand’s largest urban regeneration projects, but the striking Travelodge Hotel Wynyard Quarter Auckland sits at the heart.",
+      "price": 560,
+      "place": "Southisland",
+      "dataId": "decent"
+    },
+    {
+      "id": 7,
+      "image": "./contents/Auckland2decent.jpg",
+      "title": "The Quadrant Hotel & Suites",
+      "description": "Sunrise Garden Serviced Apartments",
+      "price": 420,
+      "place": "Southisland",
+      "dataId": "decent"
+    },
+    {
+      "id": 8,
+      "image": "./contents/Auckland4decent.jpg",
+      "title": "Quest Takapuna",
+      "description": "Offering air-conditioned rooms in the North Shore district of Auckland, Quest Takapuna is 2.4 km from Milford Beach. This 4-star hotel offers a concierge service and luggage storage space. Free WiFi is available and private parking can be arranged at an extra charge. At the hotel, every room is equipped with a desk, a flat-screen TV, a private bathroom, bed linen and towels. The rooms include a kettle, while selected rooms have a kitchen with an oven. All units at Quest Takapuna are equipped with a seating area. Takapuna Beach is 2.9 km from the accommodation, while Auckland Harbour Bridge is 6.6 km away. The nearest airport is Auckland Airport, 30 km from Quest Takapuna.",
+      "price": 420,
+      "place": "Northisland",
+      "dataId": "decent"
+    },
+    {
+      "id": 9,
+      "image": "././contents/Auckland5decent.jpg",
+      "title": "Suite Petite",
+      "description": "Suite Petite is a studio apartment in Taupo, 24 km from Orakei Korako - The Hidden Valley and 800 m from Taupo Bungy. Housed in a building dating from 2014, this apartment is 800 m from the Lake Taupo Hole in One Challenge and from town where guests can enjoy a number of cafes, restaurants and shops.  Offering free private parking, this apartment also features free WiFi throughout the property. The apartment features a private entrance and offers a range of wellness facilities including a hot tub. Barbecue facilities are included.",
+      "price": 123,
+      "place": "Northisland",
+      "dataId": "decent"
+    },
+    {
+      "id": 10,
+      "image": "./contents/Auckland4decent.jpg",
+      "title": "Quest Takapuna",
+      "description": "Offering air-conditioned rooms in the North Shore district of Auckland, Quest Takapuna is 2.4 km from Milford Beach. This 4-star hotel offers a concierge service and luggage storage space. Free WiFi is available and private parking can be arranged at an extra charge. At the hotel, every room is equipped with a desk, a flat-screen TV, a private bathroom, bed linen and towels. The rooms include a kettle, while selected rooms have a kitchen with an oven. All units at Quest Takapuna are equipped with a seating area. Takapuna Beach is 2.9 km from the accommodation, while Auckland Harbour Bridge is 6.6 km away. The nearest airport is Auckland Airport, 30 km from Quest Takapuna.",
+      "price": 420,
+      "place": "Northisland",
+      "dataId": "decent"
+    },
+    {
+      "id": 11,
+      "image": "./contents/Auckland1 luxurious.jpg",
+      "title": "The Convent Hotel",
+      "description": "Offering free WiFi, The Convent Hotel offers rooms in Auckland, less than 0.6 mi from Eden Park Stadium and 1.6 mi from Auckland Town Hall. The property is set 1.6 mi from The Civic. The hotel features family rooms. All rooms in the hotel are fitted with a kettle, and certain rooms at The Convent Hotel have a balcony.",
+      "price": 1000,
+      "place": "Northisland",
+      "dataId": "luxurious"
+    },
+    {
+      "id": 12,
+      "image": "./contents/Auckland2 luxurious.jpg",
+      "title": "Hobson lodge",
+      "description": "Attractively situated in the Auckland Central Business District district of Auckland, Hobson Lodge is situated 2.9 km from Masefield Beach, 500 m from Aotea Centre and 600 m from Aotea Square. Among the facilities at this property are a shared kitchen and a shared lounge, along with free WiFi throughout the property. Private parking is available on site.",
+      "price": 900,
+      "place": "Southisland",
+      "dataId": "luxurious"
+    },
+    {
+      "id": 13,
+      "image": "./contents/Auckland3 luxurious.jpg",
+      "title": "VR Queen Street",
+      "description": "VR Queen Street is a 10-minute walk from Auckland University and The Civic Theatre. It is a 15-minute walk from Sky City Casino, Auckland Hospital and Ponsonby Road. Auckland Harbor Waterfront is a 5-minute drive away. The Airbus Express bus service from Auckland Airport stops outside the property.",
+      "price": 1955,
+      "place": "Southisland",
+      "dataId": "luxurious"
+    },
+    {
+      "id": 14,
+      "image": "/contents/Auckland4 luxurious.jpg",
+      "title": "Four points by Sharaton Auckland",
+      "description": "Accessible bathroom, Ballroom, Breakfast available (surcharge), Business center, Carpeted, Computer station, Concierge services, Conference space, Conference space size (feet) - 2045, Conference space size (meters) - 190, Dry cleaning/laundry service, Elevator, Express check-in, Express check-out, Fitness facilities, Free newspapers in lobby, In-room accessibility, Luggage storage, Multilingual staff, Number of bars/lounges - 1, Number of coffee shops/cafes - 1, Number of meeting rooms - 2, Number of restaurants - 1, Porter/bellhop, Roll-in shower, Safe-deposit box at front desk",
+      "price": 560,
+      "place": "Southisland",
+      "dataId": "luxurious"
+    },
+    {
+      "id": 15,
+      "image": "/contents/Auckland5 luxurious.jpg",
+      "title": "Quest Parnell",
+      "description": "Located in the historical inner city suburb of Parnell, Quest Serviced Apartments offers quality self-contained and air-conditioned accommodation. Guests enjoy a heated indoor pool and fitness centre and a variety of cafes and restaurants within 2 minutes' walk.",
+      "price": 950,
+      "place": "Southisland",
+      "dataId": "luxurious"
+    }
+  ]
+}

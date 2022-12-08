@@ -1,0 +1,390 @@
+/* .hidecontentfunction {
+  display: none;
+} */
+
+/* .hidecontentfunction {
+  opacity: 0;
+  transform: scale(0.6);
+  pointer-events: none;
+} */
+
+/* .hide {
+  display: none;
+} */
+
+.displayAll {
+  display: block;
+}
+
+body {
+  background-color: #48cae4;
+  height: 100vh;
+  width: 225vh;
+}
+
+nav {
+  background-color: black;
+  border: 5px solid #fca311;
+  height: 121px;
+  width: 1868px;
+
+  margin-bottom: 30px;
+}
+
+.closeout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  z-index: 2;
+}
+
+.closebuttonimg {
+  height: 30px;
+  width: 30px;
+}
+
+.modal {
+  position: fixed;
+  background: white;
+  padding: 10px;
+  height: 151vh;
+  width: 161vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  border: 3px solid black;
+  z-index: 1;
+  position: absolute;
+  right: 1px;
+  left: 195px;
+  transition: 0.4s;
+}
+
+.googlemapsandimage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.map-container {
+  height: 273px;
+  width: 206px;
+  border: 9px solid black;
+}
+.modalimage {
+  display: flex;
+  justify-content: flex-start;
+  height: 505px;
+  width: 745px;
+}
+
+.modalDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.modalH1 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Rubik Distressed", cursive;
+}
+.DOUBLETreePparagraph {
+  width: 496px;
+  height: 106px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.addOns-container {
+  margin-top: 30px;
+}
+.Modaladd-ons1 {
+  margin-bottom: 50px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.Modaladd-ons2 {
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-between;
+  color: #a7c957;
+  flex-direction: column;
+  height: 114px;
+  width: 30px;
+}
+
+.modalbooknowbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booknowButtonobject {
+  border-radius: 30px;
+  border: 30px;
+  height: 76px;
+  width: 155px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: greenyellow;
+  border: 3px solid #7209b7;
+  cursor: pointer;
+}
+
+.Top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: #caf0f8;
+
+  font-family: "Chakra Petch", sans-serif;
+
+  font-weight: 900;
+}
+
+.topnavcontainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.footerimg {
+  height: 30px;
+  width: 30px;
+}
+
+.image {
+  background-image: url();
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 250px;
+}
+
+.PlaceFilters {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 30px;
+}
+
+.enterfields {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #d90429;
+}
+
+.fieldenteredshowseverything {
+  font-family: "Kumbh Sans", sans-serif;
+  color: #d90429;
+  border-radius: 30px;
+  height: 116px;
+}
+
+.datepicker {
+  width: 10%;
+  background-image: url(./icons/calander.png);
+  background-size: 19px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  height: 7vh;
+}
+
+.numberofpeople {
+  background-image: url(./icons/personicon.jpg);
+  background-size: 19px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  height: 41px;
+  width: 95px;
+}
+
+.placefillterButton {
+  background-color: darkred;
+  color: white;
+  border-radius: 30px;
+  height: 41px;
+  width: 96px;
+  font-family: "Cookie", cursive;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttons {
+  height: 50px;
+  width: 100px;
+  border-radius: 30px;
+  font-family: "Righteous", cursive;
+
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+  border: 3px solid blue;
+}
+
+.userSelection {
+  display: flex;
+  gap: 374px;
+  width: 271%;
+  align-items: center;
+}
+
+.displaynonefunction {
+  display: none;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 154px;
+}
+
+.Placename {
+  font-weight: bold;
+  flex: 1;
+  min-height: 74px;
+  color: #7400b8;
+  font-family: "Righteous", cursive;
+}
+
+.TheCard {
+  margin-top: 150px;
+  height: 320px;
+  width: 134px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardimg {
+  height: 182px;
+  width: 134px;
+  object-fit: cover;
+}
+
+.price {
+  font-family: "Taviraj", serif;
+  color: greenyellow;
+}
+
+.DetailsButton {
+  background-color: red;
+  font-family: "Unica One", cursive;
+
+  color: white;
+  height: 29px;
+  width: 98px;
+  border-radius: 30px;
+  font-weight: 600px;
+  cursor: pointer;
+}
+
+/* Animation for content popup */
+.hide {
+  opacity: 0;
+  transform: scale(0.6);
+  pointer-events: none;
+}
+
+.FadeAnimation {
+  animation: FadeIn 2s;
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* modal animation */
+
+.hideandAnimateModal {
+  opacity: 0;
+  transform: scale(0.6);
+  pointer-events: none;
+}
+
+.showModal {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+@media screen and (max-width: 390px) {
+  nav {
+    height: 20vh;
+    width: 44vh;
+  }
+
+  .PlaceFilters {
+    width: 378px;
+  }
+
+  .enterfields {
+    font-size: 19px;
+  }
+
+  .userSelection {
+    gap: 37px;
+    width: 65%;
+  }
+
+  .map-container {
+    display: none;
+  }
+  .modal {
+    height: 132vh;
+    width: 57vh;
+    right: 1px;
+    left: -54px;
+  }
+  .modalimage {
+    height: 307px;
+    width: 407px;
+  }
+
+  .closebuttonimg {
+    margin-right: 62px;
+  }
+
+  .contents {
+    gap: 0;
+    grid-template-columns: 1fr;
+    margin-left: 97px;
+  }
+
+  .modalH1 {
+    font-size: 19px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .DOUBLETreePparagraph {
+    width: 373px;
+    font-size: 18px;
+    margin-bottom: 106px;
+  }
+}

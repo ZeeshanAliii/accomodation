@@ -1,0 +1,153 @@
+.hide {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  background: #bde4a7;
+  padding: 10px;
+  height: 82vh;
+  width: 79vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  border: 3px solid white;
+  z-index: 1;
+  position: absolute;
+  color: black;
+  transition: 0.4s;
+}
+
+.H1Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-family: "Anek Devanagari", sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.TextmessagePhoneNumber {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 30px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.EmailUs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  height: 102px;
+  width: 462px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.ThankyouParagraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  height: 195px;
+  width: 462px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Nerko One", cursive;
+}
+
+.returnContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.returnbutton {
+  cursor: pointer;
+  margin-top: 42px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: #7a9cc6;
+  height: 77px;
+  width: 161px;
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+
+.wholepage {
+  flex-direction: column;
+}
+
+.creditcard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+.creditcards {
+  height: 30px;
+  width: 30px;
+  gap: 30px;
+}
+
+.inputscreditcard {
+  gap: 30px;
+}
+
+.userscardname {
+  margin-bottom: 30px;
+}
+
+.monthyear {
+  margin-bottom: 30px;
+}
+
+.youaresafedontworry {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProceedButton {
+  background-color: yellow;
+  color: brown;
+  border-radius: 30px;
+  height: 45px;
+  width: 155px;
+
+  cursor: pointer;
+}
+
+.lock {
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+}
+
+/* modal animation */
+.hideandAnimateModal {
+  opacity: 0;
+  transform: scale(0.6);
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.showModal {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+@media screen and (max-width: 390px) {
+  .modal {
+    width: 41vh;
+  }
+}
